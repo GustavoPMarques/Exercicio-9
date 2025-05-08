@@ -1,4 +1,4 @@
-public class Cilindro extends Formas{
+public class Cilindro extends Formas implements Volume{
     private double altura;
 
     public Cilindro(int coordenadaX, int coordenadaY, double raio, double altura) {

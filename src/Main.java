@@ -12,7 +12,7 @@ public class Main {
             System.out.println(forma.getClass().getSimpleName());
             System.out.println(forma);
             System.out.println("Área: "+forma.calcularArea());
-            if (forma instanceof Cilindro) {
+            if (forma instanceof Volume) {
                 System.out.println("Volume: "+ ((Cilindro) forma).calcularVolume());
 
             }
